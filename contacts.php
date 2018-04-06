@@ -33,7 +33,7 @@
         <div class="collapse navbar-collapse" id="navbarCollapse">
             <div class="navbar-nav col-sm col-md-10">
                 <a class="nav-item nav-link col-sm" href="index.php">Главная</a>
-                <a class="nav-item nav-link col-sm" href="#">О проекте</a>
+                <a class="nav-item nav-link col-sm" href="about.php">О проекте</a>
                 <a class="nav-item nav-link col-sm" href="#">Материалы</a>
                 <a class="nav-item nav-link col-sm" href="#">Эксперты</a>
                 <a class="nav-item nav-link col-sm" href="contacts.php">Контакты</a>
@@ -81,30 +81,30 @@
 </div>
 
 <main role="main">
-    <div class="container p-md-0">
+    <div class="contacts-page container p-md-0">
         <div class="row pt-5">
             <div class="left-column-title col-md-2 p-md-0 mr-5">
-                <h1>О проекте</h1>
+                <h1>Контакты</h1>
             </div>
             <div class="right-column-content col-md-9 p-md-0 ml-4">
-                <div class="content-block-1">
-                    <p>«Геостратегический атлас Большого Средиземноморья» - это уникальный междисциплинарный проект,
-                        сочетающий подготовку научно-аналитических текстов и статистических материалов с
-                        инфографическими и картографическими разработками по проблемам государств Большого
-                        Средиземноморья – стран, располагающихся в бассейнах Азовского, Черного и Средиземного
-                        морей.</p>
-                </div>
-                <div class="content-block-2">
-                    <h2>Возможности атласа</h2>
-                    <p>Современная ситуация контролирует закон исключённого третьего. Мир не так уж очевиден.
-                        Сомнение ментально рассматривается примитивный даосизм. Атомистика преобразует неоднозначный
-                        гедонизм, не учитывая мнения авторитетов.</p>
-                    <p>Аджива, конечно, транспонирует позитивизм, при этом буквы А, В, I, О символизируют
-                        соответственно общеутвердительное, общеотрицательное, частноутвердительное и
-                        частноотрицательное суждения. Генетика нетривиальна. Бабувизм, как следует из
-                        вышесказанного, прост. Априори, освобождение рассматривается принцип восприятия, изменяя
-                        привычную реальность.</p>
-                </div>
+                <span class="row">
+                    <span class="contacts-title col-md-2">Адрес</span>
+                    <span class="contacts-text col-md-10">299053, г. Севастополь, ул. Университетская, 33</span>
+                </span>
+                <span class="row">
+                    <span class="contacts-title col-md-2">Почта</span>
+                    <span class="contacts-text col-md-10">mail@domen.ru</span>
+                </span>
+                <span class="contacts-title p-md-0">Напишите нам</span>
+                <form>
+                    <div class="form-group col-md-5 p-md-0">
+                        <input type="text" class="form-control mt-4" name="name" placeholder="Введите ваше имя">
+                        <input type="email" class="form-control" placeholder="Введите ваш email">
+                        <input type="text" class="form-control" placeholder="Введите тему письма">
+                        <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Введите ваше сообщение"></textarea>
+                        <button type="submit" class="btn btn-primary submit-button float-left">Отправить</button>
+                    </div>
+                </form>
             </div>
         </div>
     </div>

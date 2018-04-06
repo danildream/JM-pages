@@ -36,7 +36,7 @@
                 <a class="nav-item nav-link col-sm" href="about.php">О проекте</a>
                 <a class="nav-item nav-link col-sm" href="#">Материалы</a>
                 <a class="nav-item nav-link col-sm" href="#">Эксперты</a>
-                <a class="nav-item nav-link col-sm" href="#">Контакты</a>
+                <a class="nav-item nav-link col-sm" href="contacts.php#">Контакты</a>
             </div>
 
             <div class="col-sm col-md-2 p-0 my-sm-1 text-center">
