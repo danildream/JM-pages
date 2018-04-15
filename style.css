@@ -662,6 +662,123 @@ a.articles-link:hover {
 .contacts-page :-moz-placeholder           {color:#606060;}/* Firefox 18- */
 .contacts-page :-ms-input-placeholder      {color:#606060;}
 
+
+/* Last Materials Page  */
+
+.page-title {
+  background-color: #1074bc;
+  color: white;
+}
+
+.page-title h1 {
+  padding: 45px;
+  font-size: 2.125rem;
+}
+
+.last-articles-page {
+  background-color: #ebebeb;
+}
+
+.last-articles-page .last.periods {
+  background-color: #ebebeb;
+  padding-top: 4.5rem;
+}
+
+.last-articles-page .article-box {
+  background-color: #fff;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.last-articles-page .article-box__link {
+  position: absolute;
+  z-index: 103;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: none !important;
+}
+
+.last-articles-page .card-columns .card {
+  margin-bottom: 2.5rem;
+}
+
+
+.last-articles-page .card-columns {
+  column-gap: 1.875rem;
+}
+
+.last-articles-page .article-box__link:hover {
+  transition: box-shadow .4s cubic-bezier(.23,1,.32,1);
+  box-shadow: 0 4px 6px 0 rgba(9,63,179,.08), 0 8px 20px 2px rgba(2,11,34,.1);
+  z-index: 2;
+}
+
+.last-articles-page .card-body {
+  padding-top: 0px;
+}
+
+.last-articles-page .card:hover {
+  color: #1074bc;
+  transition: all .5s;
+}
+
+.last-articles-page .card-img-bg {
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background-color: #1074bc;
+  transition: all .4s;
+}
+
+.last-articles-page .card-image-box {
+  position: relative;
+  font-size: 0;
+}
+
+.last-articles-page .card:hover .card-img-bg {
+  display: block;
+  opacity: 0.4;
+  transition: all .4s;
+
+}
+
+.last-articles-page .article-picture {
+  width: 370px;
+}
+
+.last-articles-page .card-title {
+  font-size: 22px;
+  font-weight: bold;
+  padding-top: 32px;
+  padding-bottom: 20px;
+}
+
+.last-articles-page .card-text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+.last-articles-page .article-date {
+  margin-left: 30px;
+}
+
+
   /*   Footer   */
 
 footer {
