@@ -671,7 +671,7 @@ a.articles-link:hover {
 }
 
 .page-title h1 {
-  padding: 45px;
+  padding: 3rem;
   font-size: 2.125rem;
 }
 
@@ -712,6 +712,8 @@ a.articles-link:hover {
 
 .last-articles-page .card-columns .card {
   margin-bottom: 2.5rem;
+  border: none;
+  border-radius: 0;
 }
 
 
@@ -726,7 +728,7 @@ a.articles-link:hover {
 }
 
 .last-articles-page .card-body {
-  padding-top: 0px;
+  padding-top: 0;
 }
 
 .last-articles-page .card:hover {
@@ -755,7 +757,6 @@ a.articles-link:hover {
   display: block;
   opacity: 0.4;
   transition: all .4s;
-
 }
 
 .last-articles-page .article-picture {
@@ -763,7 +764,7 @@ a.articles-link:hover {
 }
 
 .last-articles-page .card-title {
-  font-size: 22px;
+  font-size: 1.375rem;
   font-weight: bold;
   padding-top: 32px;
   padding-bottom: 20px;
@@ -774,8 +775,186 @@ a.articles-link:hover {
   font-weight: 400;
 }
 
-.last-articles-page .article-date {
-  margin-left: 30px;
+@media (max-width: 767px) and (min-width: 200px) {
+  .last-articles-page .card-title {
+    font-size: 2.375rem;
+    font-weight: bold;
+    padding-top: 32px;
+    padding-bottom: 20px;
+  }
+
+  .last-articles-page .card-text {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+}
+
+/* Article Page  */
+
+.article-wrapper {
+  max-width: 770px;
+  margin: 0 auto;
+  padding-right: 15px;
+  padding-left: 15px;
+}
+
+.article-title {
+  font-size: 2.125rem;
+  font-weight: bold;
+  margin-top: 3.5rem;
+  margin-bottom: 2.5rem;
+
+}
+
+.article-first-text {
+  font-size: 1.25rem;
+  margin-bottom: 2.5rem;
+}
+
+.article-date {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.article-author {
+  font-size: 1rem;
+  font-weight: bold;
+}
+
+.article-author a {
+  color: #4b4c50;
+  text-decoration: underline;
+}
+
+.article-text {
+  margin-top: 5rem;
+  font-size: 1.125rem;
+  padding-bottom: 2rem;
+  border-bottom: 1px solid #aaa9a9;
+}
+
+.soc-icons-block {
+  margin-top: 2.5rem;
+  margin-bottom: 4.5rem;
+  font-weight: bold;
+  font-size: 1.125rem;
+}
+
+.more-articles {
+  background-color: #ebebeb;
+  padding-top: 5rem;
+  padding-bottom: 5rem;
+}
+
+.more-articles .article-box {
+  background-color: #fff;
+  position: relative;
+  top: 0;
+  left: 0;
+  width: 31.5%;
+  height: 100%;
+  background-size: cover;
+  background-position: 50% 50%;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
+
+.more-articles .article-box__link {
+  position: absolute;
+  z-index: 103;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  border-bottom: none !important;
+}
+
+.more-articles .article-box__link:hover {
+  transition: box-shadow .4s cubic-bezier(.23,1,.32,1);
+  box-shadow: 0 4px 6px 0 rgba(9,63,179,.08), 0 8px 20px 2px rgba(2,11,34,.1);
+  z-index: 2;
+}
+
+.more-articles .article-box:hover {
+  color: #1074bc;
+  transition: all .5s;
+}
+
+.more-articles .card-img-top {
+  border-top-left-radius: 0;
+  border-top-right-radius: 0;
+}
+
+.more-articles .card-img-bg {
+
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0;
+  background-color: #1074bc;
+  transition: all .4s;
+}
+
+.more-articles .card-image-box {
+  position: relative;
+  font-size: 0;
+}
+
+.more-articles .article-box:hover .card-img-bg {
+  display: block;
+  opacity: 0.4;
+  transition: all .4s;
+
+}
+
+.more-articles .card-title {
+  font-size: 1.375rem;
+  font-weight: bold;
+  padding-bottom: 10px;
+}
+
+.more-articles .card-text {
+  font-size: 1rem;
+  font-weight: 400;
+}
+
+@media (max-width: 767px) and (min-width: 200px) {
+  .article-first-text {
+    font-size: 1.8rem;
+  }
+
+  .article-date {
+    font-size: 1.5rem;
+  }
+
+  .article-author {
+    font-size: 1.5rem;
+  }
+
+  .article-text {
+    font-size: 1.7rem;
+  }
+
+  .more-articles .article-box {
+       width: 100%;
+  }
+
+  .more-articles .card-title {
+    font-size: 2.375rem;
+    font-weight: bold;
+    padding-bottom: 10px;
+  }
+
+  .more-articles .card-text {
+    font-size: 2rem;
+    font-weight: 400;
+  }
+
 }
 
 
