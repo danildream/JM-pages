@@ -34,8 +34,8 @@
             <div class="navbar-nav col-sm col-md-10">
                 <a class="nav-item nav-link col-sm" href="index.php">Главная</a>
                 <a class="nav-item nav-link col-sm" href="about.php">О проекте</a>
-                <a class="nav-item nav-link col-sm" href="#">Материалы</a>
-                <a class="nav-item nav-link col-sm" href="#">Эксперты</a>
+                <a class="nav-item nav-link col-sm" href="last_materials.php">Материалы</a>
+                <a class="nav-item nav-link col-sm" href="experts.php">Эксперты</a>
                 <a class="nav-item nav-link col-sm" href="contacts.php">Контакты</a>
             </div>
 

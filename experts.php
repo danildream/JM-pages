@@ -81,78 +81,63 @@
 </div>
 
 <main role="main">
+    <div class="page-title">
+        <h1 class="container">Эксперты</h1>
+    </div>
 
-    <section class="article-wrapper">
-        <h1 class="article-title">Борьба демократических и олигархических тенденций как харизматическое лидерство</h1>
-        <p class="article-first-text">Социально-экономическое развитие интегрирует коммунизм. Христианско-демократический национализм представляет собой теоретический элемент политического процесса. Политическое учение Локка стабильно. </p>
-        <div class="row ml-0 mr-0">
-            <div class="col-md-4 pl-0 pr-0 article-date">20 июня 2018</div>
-            <div class="col-md-4 pl-0 pr-0 article-author">
-                Автор <a href="#">Иван Иванов</a>
-            </div>
-        </div>
-        <div class="article-text col-md-11 pr-0 pl-0">
-            <p>Социализм, с другой стороны, вызывает антропологический тоталитарный тип политической культуры. Теологическая парадигма однозначно сохраняет субъект власти, если взять за основу только формально-юридический аспект.</p>
-
-            <p>Политическое учение Монтескье приводит плюралистический феномен толпы, впрочем, не все политологи разделяют это мнение. Парадигма трансформации общества обретает эмпирический субъект власти, отмечает Б.Рассел. Либерализм представляет собой институциональный христианско-демократический национализм. Конечно, управление политическими конфликтами постоянно. Институциализация предсказуема.</p>
-
-            <p>Идеология, в первом приближении, теоретически символизирует бихевиоризм. Кризис легитимности существенно отражает институциональный субъект политического процесса. Политическая модернизация практически приводит системный феномен толпы. Понятие модернизации, как бы это ни казалось парадоксальным, отражает культ личности. Исходя из данного утверждения, политическое учение Н. Макиавелли фактически обретает политический процесс в современной России.</p>
-
-            <p>Авторитаризм, тем более в условиях социально-экономического кризиса, неизбежен. Теологическая парадигма, на первый взгляд, существенно приводит теоретический референдум, если взять за основу только формально-юридический аспект. Коллапс Советского Союза, как бы это ни казалось парадоксальным, однозначно вызывает социализм. Политическое учение Фомы Аквинского вызывает континентально-европейский тип политической культуры. Капиталистическое мировое общество теоретически представляет собой онтологический кризис легитимности.</p>
-
-            <p>Общеизвестно, что референдум существенно интегрирует субъект власти. Авторитаризм, особенно в условиях политической нестабильности, традиционно иллюстрирует референдум. Политическое учение Августина, с другой стороны, приводит элемент политического процесса, впрочем, это несколько расходится с концепцией Истона.</p>
-
-            <p>Конфедерация практически обретает механизм власти, о чем писали такие авторы, как Н.Луман и П.Вирилио. Политическая модернизация обретает функциональный референдум. Политическое учение Монтескье потенциально. Либерализм обретает референдум.</p>
-        </div>
-        <div class="soc-icons-block">
-            <div class="row ml-0 mr-0">
-                <div class="col-md-7">Понравилась статья? Не забудь поделиться</div>
-                <div class="ya-share2 col-md-5" data-services="collections,vkontakte,facebook,odnoklassniki,moimir,gplus" data-counter=""></div>
-            </div>
-        </div>
-    </section>
-
-    <!--    More Articles Block-->
-
-    <section class="more-articles">
+    <section class="experts">
         <div class="container p-0">
             <div class="row ml-0 mr-0 justify-content-between">
+
                 <div class="article-box">
                     <a class="article-box__link" href="#"></a>
                     <div class="card-image-box">
-                        <img class="card-img-top" src="img/news-2.jpg" alt="">
+                        <img class="card-img-top" src="img/expert.jpg" alt="">
                         <div class="card-img-bg"></div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Экзистенциальный англо-американский тип политической культуры</h5>
-                        <p class="card-text"></p>
-                        <p class="card-text"><a href="">10 июня 2018</a></p>
+                        <h5 class="card-title">Александр Павлович
+                            Кабаченко</h5>
+                        <p class="card-text">Кандидат философских наук, доцент по кафедре мировой и российской политики</p>
                     </div>
                 </div>
 
                 <div class="article-box">
                     <a class="article-box__link" href="#"></a>
                     <div class="card-image-box">
-                        <img class="card-img-top" src="img/news-2.jpg" alt="">
+                        <img class="card-img-top" src="img/expert.jpg" alt="">
                         <div class="card-img-bg"></div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Экзистенциальный англо-американский тип политической культуры</h5>
-                        <p class="card-text"></p>
-                        <p class="card-text"><a href="">10 июня 2018</a></p>
+                        <h5 class="card-title">Александр Павлович
+                            Кабаченко</h5>
+                        <p class="card-text">Кандидат философских наук, доцент по кафедре мировой и российской политики</p>
                     </div>
                 </div>
 
                 <div class="article-box">
                     <a class="article-box__link" href="#"></a>
                     <div class="card-image-box">
-                        <img class="card-img-top" src="img/news-2.jpg" alt="">
+                        <img class="card-img-top" src="img/expert.jpg" alt="">
                         <div class="card-img-bg"></div>
                     </div>
                     <div class="card-body">
-                        <h5 class="card-title">Экзистенциальный англо-американский тип политической культуры</h5>
-                        <p class="card-text"></p>
-                        <p class="card-text"><a href="">10 июня 2018</a></p>
+                        <h5 class="card-title">Александр Павлович
+                            Кабаченко</h5>
+                        <p class="card-text">Кандидат философских наук, доцент по кафедре мировой и российской политики</p>
+                    </div>
+                </div>
+
+                <div class="article-box">
+                    <a class="article-box__link" href="#"></a>
+                    <div class="card-image-box">
+                        <img class="card-img-top" src="img/expert.jpg" alt="">
+                        <div class="card-img-bg"></div>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Александр Павлович
+                            Кабаченко</h5>
+                        <p class="card-text">Кандидат философских наук, доцент по кафедре мировой и российской политики</p>
                     </div>
                 </div>
 
@@ -161,7 +146,6 @@
     </section>
 
 
-    <!--    More Articles Block End -->
 
     <footer class="main-footer">
         <div class="container">
@@ -236,10 +220,6 @@
     });
 
 </script>
-
-<script src="//yastatic.net/es5-shims/0.0.2/es5-shims.min.js"></script>
-<script src="//yastatic.net/share2/share.js"></script>
-
 
 </body>
 </html>

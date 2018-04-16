@@ -35,7 +35,7 @@
                 <a class="nav-item nav-link col-sm" href="#">Главная</a>
                 <a class="nav-item nav-link col-sm" href="about.php">О проекте</a>
                 <a class="nav-item nav-link col-sm" href="#">Материалы</a>
-                <a class="nav-item nav-link col-sm" href="#">Эксперты</a>
+                <a class="nav-item nav-link col-sm" href="experts.php">Эксперты</a>
                 <a class="nav-item nav-link col-sm" href="contacts.php#">Контакты</a>
             </div>
 
@@ -553,9 +553,25 @@
                         <p class="card-text"><a href="">10 июня 2018</a></p>
                     </div>
                 </div>
-
-
             </div>
+
+<!--            Pagination     -->
+
+
+            <div class="pagination justify-content-center">
+                <ul class="clearfix">
+<!--                    <li class="prev"><a rel="prev" href="#"></a></li>-->
+                    <li class="sel"><a href="#">1</a></li>
+                    <li><a rel="next" href="#">2</a></li>
+                    <li><a href="#">3</a></li>
+                    <li><a href="#">4</a></li>
+                    <li><a href="#">5</a></li>
+                    <li class="page gap"><span>…</span></li>
+                    <li><a href="#">15</a></li>
+                    <li class="next"><a rel="next" href="#"></a></li>
+                </ul>
+            </div>
+
         </div>
 
         <!--   Last Material Cards End  -->
