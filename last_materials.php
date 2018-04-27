@@ -23,8 +23,9 @@
 </head>
 
 <body>
-<header class="container">
-    <nav class="navbar navbar-expand-md p-md-0 row">
+<header>
+    <div class="container">
+        <nav class="navbar navbar-expand-md p-md-0 row">
         <a class="logo col-6 col-sm-4 col-md-2 pl-md-0" href="#"> <img src="img/logo.png" alt=""></a>
         <button class="navbar-toggler pr-3" type="button" data-toggle="collapse" data-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
@@ -67,6 +68,7 @@
 
         </div>
     </nav>
+    </div>
 </header>
 
 <div class="collapse search" id="collapseSearch">
@@ -81,7 +83,7 @@
 </div>
 
 <main role="main">
-    <div class="page-title">
+    <div class="page-title pl-md-0 pl-4">
         <h1 class="container">Последние материалы</h1>
     </div>
 
@@ -96,126 +98,64 @@
                 <div class="slider-item">
                     <div class="slider-item__wrapper">
                         <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
+                            <a class="item-slide__link" href="#"> <div class="caption">
+                                    <div class="title-caption">
+                                        1 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
+                                </div></a>
                             <div class="item-slide__cover"
                                  style="background-image:url(img/cont_img.png); background-size: cover">
-                            </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    1 Российское государство и Крым в Большом Средиземноморье
-                                </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
-                                </div>
                             </div>
                         </div>
 
                         <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
+                            <a class="item-slide__link" href="#">
+                                <div class="caption">
+                                    <div class="title-caption">
+                                        2 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
+                                </div>
+                            </a>
                             <div class="item-slide__cover"
                                  style="background-image:url(img/cont_img.png); background-size: cover">
-                            </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    2 Российское государство и Крым в Большом Средиземноморье
-                                </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
-                                </div>
                             </div>
                         </div>
 
                         <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
+                            <a class="item-slide__link" href="#">
+                                <div class="caption">
+                                    <div class="title-caption">
+                                        3 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
+                                </div>
+                            </a>
                             <div class="item-slide__cover"
                                  style="background-image:url(img/cont_img.png); background-size: cover">
-                            </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    3 Российское государство и Крым в Большом Средиземноморье
-                                </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
-                                </div>
                             </div>
                         </div>
 
                         <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
+                            <a class="item-slide__link" href="#">
+                                <div class="caption">
+                                    <div class="title-caption">
+                                        4 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
+                                </div>
+                            </a>
                             <div class="item-slide__cover"
                                  style="background-image:url(img/cont_img.png); background-size: cover">
-                            </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    4 Российское государство и Крым в Большом Средиземноморье
-                                </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="slider-item">
-                    <div class="slider-item__wrapper">
-                        <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
-                            <div class="item-slide__cover"
-                                 style="background-image:url(img/cont_img.png); background-size: cover">
-                            </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    5 Российское государство и Крым в Большом Средиземноморье
-                                </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
-                            <div class="item-slide__cover"
-                                 style="background-image:url(img/cont_img.png); background-size: cover">
-                            </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    6 Российское государство и Крым в Большом Средиземноморье
-                                </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
-                            <div class="item-slide__cover"
-                                 style="background-image:url(img/cont_img.png); background-size: cover">
-                            </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    7 Российское государство и Крым в Большом Средиземноморье
-                                </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
-                            <div class="item-slide__cover"
-                                 style="background-image:url(img/cont_img.png); background-size: cover">
-                            </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    8 Российское государство и Крым в Большом Средиземноморье
-                                </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
-                                </div>
                             </div>
                         </div>
                     </div>
@@ -224,62 +164,134 @@
                 <div class="slider-item">
                     <div class="slider-item__wrapper">
                         <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
+                            <a class="item-slide__link" href="#">
+                                <div class="caption">
+                                    <div class="title-caption">
+                                        5 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
+                                </div>
+                            </a>
                             <div class="item-slide__cover"
                                  style="background-image:url(img/cont_img.png); background-size: cover">
-                            </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    9 Российское государство и Крым в Большом Средиземноморье
-                                </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
-                                </div>
                             </div>
                         </div>
 
                         <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
+                            <a class="item-slide__link" href="#">
+                                <div class="caption">
+                                    <div class="title-caption">
+                                        6 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
+                                </div>
+                            </a>
                             <div class="item-slide__cover"
                                  style="background-image:url(img/cont_img.png); background-size: cover">
-                            </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    10 Российское государство и Крым в Большом Средиземноморье
-                                </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
-                                </div>
                             </div>
                         </div>
 
                         <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
+                            <a class="item-slide__link" href="#">
+                                <div class="caption">
+                                    <div class="title-caption">
+                                        7 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
+                                </div>
+                            </a>
                             <div class="item-slide__cover"
                                  style="background-image:url(img/cont_img.png); background-size: cover">
-                            </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    11 Российское государство и Крым в Большом Средиземноморье
-                                </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
-                                </div>
                             </div>
                         </div>
 
                         <div class="item-slide">
-                            <a class="item-slide__link" href="#"></a>
+                            <a class="item-slide__link" href="#">
+                                <div class="caption">
+                                    <div class="title-caption">
+                                        8 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
+                                </div>
+                            </a>
                             <div class="item-slide__cover"
                                  style="background-image:url(img/cont_img.png); background-size: cover">
                             </div>
-                            <div class="caption">
-                                <div class="title-caption">
-                                    12 Российское государство и Крым в Большом Средиземноморье
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider-item">
+                    <div class="slider-item__wrapper">
+                        <div class="item-slide">
+                            <a class="item-slide__link" href="#">
+                                <div class="caption">
+                                    <div class="title-caption">
+                                        9 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
                                 </div>
-                                <div class="text-caption">
-                                    XV - конец XVIII века
+                            </a>
+                            <div class="item-slide__cover"
+                                 style="background-image:url(img/cont_img.png); background-size: cover">
+                            </div>
+                        </div>
+
+                        <div class="item-slide">
+                            <a class="item-slide__link" href="#">
+                                <div class="caption">
+                                    <div class="title-caption">
+                                        10 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
                                 </div>
+                            </a>
+                            <div class="item-slide__cover"
+                                 style="background-image:url(img/cont_img.png); background-size: cover">
+                            </div>
+                        </div>
+
+                        <div class="item-slide">
+                            <a class="item-slide__link" href="#">
+                                <div class="caption">
+                                    <div class="title-caption">
+                                        11 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="item-slide__cover"
+                                 style="background-image:url(img/cont_img.png); background-size: cover">
+                            </div>
+                        </div>
+
+                        <div class="item-slide">
+                            <a class="item-slide__link" href="#">
+                                <div class="caption">
+                                    <div class="title-caption">
+                                        12 Российское государство и Крым в Большом Средиземноморье
+                                    </div>
+                                    <div class="text-caption">
+                                        XV - конец XVIII века
+                                    </div>
+                                </div>
+                            </a>
+                            <div class="item-slide__cover"
+                                 style="background-image:url(img/cont_img.png); background-size: cover">
                             </div>
                         </div>
                     </div>
@@ -394,7 +406,7 @@
 
         <!--    Last Material Cards  -->
 
-        <div class="container p-0">
+        <div class="container p-md-0">
             <div class="card-columns">
 
                 <div class="card article-box">
@@ -611,9 +623,9 @@
 
             <hr>
             <div class="footer-info row">
-                <p class="copyright col-lg-5 col-md">© Геостратегический атлас Большого Средиземноморья, 2018</p>
-                <a class="feedback col-lg-2 col-md d-none d-md-block" href="#">Обратная связь</a>
-                <a class="developedby col-lg-5 col-sm" href="#">
+                <p class="copyright col-lg-5">© Геостратегический атлас Большого Средиземноморья, 2018</p>
+                <a class="feedback col-lg-2 d-none d-md-block" href="#">Обратная связь</a>
+                <a class="developedby col-lg-5 " href="#">
                     <img src="img/jm-logo.png" width="214" height="19" alt="">
                 </a>
             </div>
